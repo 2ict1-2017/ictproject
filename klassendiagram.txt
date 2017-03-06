@@ -1,7 +1,12 @@
-klassen: beacon			 route
-	--------------		-----------
-	 beaconId		 routenaam
-	 locatie		 editeren()
-	 beschrijving		 maakRoute()
-	 maakBeacon()		 toevoegenContent()
-	 contentKoppelen()
+klassen: beacons		 routes			 gegevens/content		 formulieren
+	--------------		-----------		------------------		-------------
+	- beaconId		- routenaam		- beschrijving			- titel
+	- beschrijving		- content		- type				- omschrijving
+	- locatie					- volgnummer			- type
+
+	+ maakBeacon()		+ editeren()		+ maakGegevens()		+ toonFormulier()
+	+ contentKoppelen()	+ maakRoute()		+ toonContent()
+				+ toevoegenContent()
+				+ koppelBeacons()
+
+			veel	1		1	veel		1		1
