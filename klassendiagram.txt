@@ -1,12 +1,12 @@
-klassen: beacons		 routes			 gegevens/content		 formulieren
-	--------------		-----------		------------------		-------------
-	- beaconId		- routenaam		- beschrijving			- titel
-	- beschrijving		- content		- type				- omschrijving
-	- locatie					- volgnummer			- type
+klassen: beacons			 routes			 gegevens/content		 formulieren
+	--------------			-----------		------------------		-------------
+	- beaconId(int)			- routenaam(string)	- beschrijving(string)		- titel(string)
+	- beschrijving(string)		- content(string)	- type(string)			- omschrijving(string)
+	- locatie(string)					- volgnummer(int)		- type(string)
 
-	+ maakBeacon()		+ editeren()		+ maakGegevens()		+ toonFormulier()
-	+ contentKoppelen()	+ maakRoute()		+ toonContent()
-				+ toevoegenContent()
-				+ koppelBeacons()
+	+ maakBeacon()			+ editeren()		+ maakGegevens()		+ toonFormulier()
+	+ contentKoppelen()		+ maakRoute()		+ toonContent()
+	+ showBeacons()			+ toevoegenContent()
+					+ koppelBeacons()
 
-			veel	1		1	veel		1		1
+			veel		1		1	veel		1		1
