@@ -1,0 +1,7 @@
+klassen: beacon			 route
+	--------------		-----------
+	 beaconId		 routenaam
+	 locatie		 editeren()
+	 beschrijving		 maakRoute()
+	 maakBeacon()		 toevoegenContent()
+	 contentKoppelen()
