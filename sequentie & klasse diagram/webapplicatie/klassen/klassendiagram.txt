@@ -1,0 +1,10 @@
+klassen: beacons			 routes			 gegevens/content		 formulieren			Inloggen
+	--------------			-----------		------------------		-------------			---------
+	- beaconId(int)			- routenaam(string)	- beschrijving(string)		- titel(string)			- userId(string)
+	- beschrijving(string)		- content(string)	- type(string)			- omschrijving(string)		- paswoord(string)
+	- locatie(string)		- beacons(array)	- volgnummer(int)		- type(string)
+
+	+ maakOfWijzigBeacon()		+ editeren()		+ maakGegevens()		+ toonFormulier()		+ checkLoginData()
+	+ contentKoppelen()		+ maakRoute()		+ toonContent()							+ returnMainMenuView()
+	+ toonBeacons()			+ toevoegenContent()
+	+ wisBeacons()			+ koppelBeacons()
