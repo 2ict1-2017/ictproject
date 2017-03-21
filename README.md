@@ -14,10 +14,10 @@
 
 ![picture alt](http://www.cleantechpunt.be/ctp/wp-content/uploads/2016/06/logo-UCll.png "UCLL")
 
-Rest api  |  management app
-------------- | -------------
-Hakan Sanli     | Maxim Heylen
-Kenan Bayramogule  | Frederik bibert
-a  | Nick Castermans
-a  | Bram Vanhove
-a | George Grajchen
+Rest api          |  management app
+-------------     | -------------
+Hakan Sanli       | Maxim Heylen
+Kenan Bayramoglu | Frederik bibert
+o                 | Nick Castermans
+o                 | Bram Vanhove
+o                 | George Grajchen
