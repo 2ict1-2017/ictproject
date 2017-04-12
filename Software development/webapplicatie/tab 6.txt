@@ -1,0 +1,17 @@
+  <!-- BEGIN NICK tab 6 -->
+        <div class="tab-pane active" role="tabpanel" id="tab-6">
+            <div class="contact-clean">
+                <form method="post">
+                    <h2 class="text-center">Content per beacon</h2>
+                    <div class="form-group has-success has-feedback">
+                        <input class="form-control" type="number" name="beacon_content_id" placeholder="beacon_content_id" /><i class="form-control-feedback glyphicon glyphicon-ok" aria-hidden="true"></i></div>
+                    <div class="form-group has-error has-feedback">
+                        <input class="form-control" type="number" name="beacon_id" placeholder="beacon_id" /><i class="form-control-feedback glyphicon glyphicon-remove" aria-hidden="true"></i>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary" type="submit">send </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- EINDE NICK tab 6 -->
