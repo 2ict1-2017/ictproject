@@ -4,7 +4,14 @@
                     <form method="post">
                         <h2 class="text-center">Beacon content</h2>
                         <div class="form-group has-success has-feedback">
-                            <input class="form-control" type="number" name="beacon_id" placeholder="beaconn_id" /></div>
+                          <select class="form-control">
+                              <option value="beacon1">beacon 1</option>
+                              <option value="beacon2">beacon 2</option>
+                              <option value="beacon3">beacon 3</option>
+                              <option value="beacon4">beacon 4</option>
+                              <option value="beacon5">beacon 5</option>
+                          </select>
+                        </div>
                         <div class="form-group has-error has-feedback">
                             <input class="form-control" type="text" name="metatype" placeholder="metatype" />
                         </div>
@@ -21,8 +28,7 @@
                             <textarea class="form-control" rows="14" name="content" placeholder="content"></textarea>
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-primary" type="submit">safe </button>
-							<button class="btn btn-primary" type="submit">update </button>
+                            <button class="btn btn-primary" type="submit">Opslaan</button>
                         </div>
                     </form>
                 </div>
