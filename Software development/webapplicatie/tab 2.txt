@@ -21,7 +21,8 @@
                             <textarea class="form-control" rows="14" name="content" placeholder="content"></textarea>
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-primary" type="submit">send </button>
+                            <button class="btn btn-primary" type="submit">safe </button>
+							<button class="btn btn-primary" type="submit">update </button>
                         </div>
                     </form>
                 </div>
